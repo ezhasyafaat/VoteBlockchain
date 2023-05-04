@@ -1,0 +1,14 @@
+{
+  "name": "simplevoting",
+  "version": "1.0.0",
+  "description": "Simple voting app with blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muh Ezha Syafaat",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.9.0"
+  }
+}

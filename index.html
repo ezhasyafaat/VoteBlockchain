@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voting App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>Voting App</h1>
+    <form>
+        <label for="candidate">Select a candidate:</label>
+        <select id="candidate">
+            <option value="" disabled selected>Select a candidate</option>
+            <option value="Kurt">Kurt</option>
+            <option value="John">John</option>
+            <option value="Paul">Paul</option>
+        </select>
+        <button type="button" onclick="vote()">Vote</button>
+    </form>
+    <p id="result"></p>
+    <script src="./app.js"></script>
+</body>
+</html>
